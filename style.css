@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 2500px;
+    text-align: center;
+    background-color: #fefefe;
+    font-family: 'Cardo', serif;
+    position: relative;
+}
+
+.logo-img{
+    max-width: 150px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.content_container{
+
+}
+
+
+.footer_container{
+    background-color: #f3ebe6;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    min-height: 200px;
+    display: flex;
+}
+
+.column_1{
+    background-color: aqua;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.column_2{
+    background-color: rebeccapurple;
+    width: 60%;
+}
+
+.column_3{
+    background-color: brown;
+    width: 20%;
+}
+
+.c1_title{
+    background-color: darkcyan;
+    height: 20%
+    ;
+}
+
+.c1_text{
+    height: 60%;
+    background-color: darkgrey;
+}
+
+.c1_icons{
+    background-color: mistyrose;
+    height: 20%;
+    display: flex;
+}  
+
+.facebook_icon{
+    height: 100%;
+    width: 30px;
+    background-image: url(./assets/images/facebook_icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.instagra_icon{
+    height: 100%;
+    width: 30px;
+    background-image: url(./assets/images/instagram_icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
